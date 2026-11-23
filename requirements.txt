@@ -1,0 +1,11 @@
+jupyter
+notebook
+ipykernel
+pandas
+numpy
+scikit-learn
+xgboost
+torch
+scipy
+matplotlib
+pyyaml

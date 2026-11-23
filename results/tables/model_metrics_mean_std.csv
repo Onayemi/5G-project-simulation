@@ -1,0 +1,6 @@
+model,is_ml_candidate,cal_mae_mean,cal_mae_std,test_mae_mean,test_mae_std,test_rmse_mean,test_rmse_std,test_r2_mean,test_r2_std,train_sec_mean,train_sec_std
+Baseline_LastValue,False,28.348,0.0,31.61,0.0,44.822,0.0,0.6794,0.0,0.0,0.0
+Baseline_MovingAvg,False,24.978,0.0,26.23,0.0,36.963,0.0,0.782,0.0,0.0,0.0
+LSTM,True,19.584,0.117,21.9543,0.5482,31.7817,0.8212,0.8387,0.0083,10.2409,0.4619
+RandomForest,True,20.8567,0.0346,23.211,0.0183,33.3283,0.0634,0.8228,0.0007,0.3934,0.02
+XGBoost,True,21.512,0.0805,23.4537,0.1168,33.4063,0.1857,0.8219,0.002,0.6516,0.0058

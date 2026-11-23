@@ -1,0 +1,5 @@
+margin_rule,margin_buffer_mbps_mean,margin_buffer_mbps_std,empirical_test_coverage_pct_mean,empirical_test_coverage_pct_std
+Conservative_Margin,63.061,1.672,96.08,0.28
+Error_Based_Margin,29.932,3.905,85.15,1.283
+Fixed_Margin,35.0,0.0,88.423,2.386
+No_Margin,0.0,0.0,49.207,3.933

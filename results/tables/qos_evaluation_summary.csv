@@ -1,0 +1,5 @@
+best_model,margin_rule,margin_buffer_mbps,mean_throughput_mbps,mean_latency_ms,jitter_ms,mean_packet_loss_pct,mean_bandwidth_shortage_mbps,mean_bandwidth_wastage_mbps,mean_urllc_shortage_mbps,mean_embb_shortage_mbps,mean_mmtc_shortage_mbps
+LSTM,No_Margin,0.0,283.366,10.295,3.084,3.522,11.91,10.131,2.424,5.996,3.489
+LSTM,Fixed_Margin,35.0,292.093,6.928,2.04,0.816,3.182,36.404,0.651,1.711,0.82
+LSTM,Error_Based_Margin,25.987,291.027,7.616,2.29,1.117,4.249,28.457,0.857,2.278,1.114
+LSTM,Conservative_Margin,62.405,293.655,5.465,1.336,0.407,1.621,62.247,0.347,0.855,0.419

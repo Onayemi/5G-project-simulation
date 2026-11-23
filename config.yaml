@@ -1,0 +1,59 @@
+project_name: "5G_Project_sim"
+seeds: [42, 1024, 2026]
+
+data:
+  real_dataset:
+    enabled: false
+    csv_path: "data/raw/real_5g_traffic.csv"
+    column_mapping:
+      timestamp: "timestamp"
+      eMBB_mbps: "eMBB_mbps"
+      mMTC_mbps: "mMTC_mbps"
+      URLLC_mbps: "URLLC_mbps"
+      total_demand_mbps: "total_demand_mbps"
+    default_slice_shares:
+      eMBB: 0.65
+      mMTC: 0.20
+      URLLC: 0.15
+  n_steps: 2400
+  freq: "5min"
+  start_date: "2026-01-01 00:00:00"
+  outlier_cap_percentile: 99.5
+  split_ratios:
+    train: 0.70
+    calibration: 0.15
+    test: 0.15
+
+features:
+  lookback_lags: 15
+  rolling_window: 12
+  horizon: 5
+
+models:
+  random_forest:
+    n_estimators: 60
+    max_depth: 8
+    min_samples_leaf: 3
+  xgboost:
+    n_estimators: 80
+    learning_rate: 0.08
+    max_depth: 5
+    subsample: 0.9
+  lstm:
+    hidden_size: 32
+    num_layers: 1
+    epochs: 40
+    batch_size: 64
+    lr: 0.01
+
+safety_margins:
+  fixed_mbps: 35.0
+  error_based_quantile: 0.90
+  conservative_quantile: 0.95
+  conservative_z_multiplier: 1.96
+
+allocation_and_qos:
+  link_capacity_C_mbps: 1000.0
+  urllc_priority: true
+  base_propagation_delay_ms: 4.0
+  congestion_delay_scale_ms: 45.0

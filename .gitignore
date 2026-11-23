@@ -1,0 +1,33 @@
+# Virtual environments & dependency caches
+venv5g/
+venv/
+.venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.pytest_cache/
+.ruff_cache/
+
+# Jupyter Notebook checkpoints & runtime state
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# OS & editor artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Optional: ignore generated data/results if you prefer regenerating them locally
+# data/raw/*.csv
+# data/processed/*.csv
+# results/figures/*.png
+# results/logs/*.json
+# results/tables/*.csv
+# results/tables/*.json

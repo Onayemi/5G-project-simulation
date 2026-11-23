@@ -1,0 +1,5 @@
+margin_rule,margin_buffer_mbps_mean,margin_buffer_mbps_std,mean_throughput_mbps_mean,mean_throughput_mbps_std,mean_latency_ms_mean,mean_latency_ms_std,jitter_ms_mean,jitter_ms_std,mean_packet_loss_pct_mean,mean_packet_loss_pct_std,mean_bandwidth_shortage_mbps_mean,mean_bandwidth_shortage_mbps_std,mean_bandwidth_wastage_mbps_mean,mean_bandwidth_wastage_mbps_std,mean_urllc_shortage_mbps_mean,mean_urllc_shortage_mbps_std,mean_embb_shortage_mbps_mean,mean_embb_shortage_mbps_std,mean_mmtc_shortage_mbps_mean,mean_mmtc_shortage_mbps_std
+Conservative_Margin,63.061,1.672,293.558,0.086,5.566,0.089,1.387,0.048,0.431,0.021,1.718,0.085,59.712,2.213,0.366,0.017,0.91,0.05,0.441,0.019
+Error_Based_Margin,29.932,3.905,291.108,0.11,7.539,0.072,2.264,0.031,1.102,0.043,4.168,0.11,29.033,0.518,0.848,0.024,2.214,0.057,1.105,0.05
+Fixed_Margin,35.0,0.0,291.73,0.443,7.151,0.257,2.123,0.103,0.925,0.142,3.545,0.443,33.479,2.956,0.727,0.094,1.888,0.202,0.931,0.149
+No_Margin,0.0,0.0,281.766,1.826,10.688,0.467,3.184,0.131,4.042,0.637,13.51,1.826,8.444,1.598,2.758,0.399,6.757,0.793,3.995,0.646

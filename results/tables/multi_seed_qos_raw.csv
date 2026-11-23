@@ -1,0 +1,13 @@
+seed,best_model,margin_rule,margin_buffer_mbps,mean_throughput_mbps,mean_latency_ms,jitter_ms,mean_packet_loss_pct,mean_bandwidth_shortage_mbps,mean_bandwidth_wastage_mbps,mean_urllc_shortage_mbps,mean_embb_shortage_mbps,mean_mmtc_shortage_mbps
+42,LSTM,No_Margin,0.0,283.366,10.295,3.084,3.522,11.91,10.131,2.424,5.996,3.489
+42,LSTM,Fixed_Margin,35.0,292.093,6.928,2.04,0.816,3.182,36.404,0.651,1.711,0.82
+42,LSTM,Error_Based_Margin,25.987,291.027,7.616,2.29,1.117,4.249,28.457,0.857,2.278,1.114
+42,LSTM,Conservative_Margin,62.405,293.655,5.465,1.336,0.407,1.621,62.247,0.347,0.855,0.419
+1024,LSTM,No_Margin,0.0,279.776,11.204,3.332,4.753,15.5,6.953,3.199,7.578,4.723
+1024,LSTM,Fixed_Margin,35.0,291.237,7.432,2.238,1.086,4.039,30.492,0.832,2.108,1.1
+1024,LSTM,Error_Based_Margin,33.796,291.065,7.529,2.272,1.136,4.211,29.46,0.866,2.195,1.15
+1024,LSTM,Conservative_Margin,64.961,293.525,5.635,1.432,0.442,1.751,58.165,0.373,0.923,0.454
+2026,LSTM,No_Margin,0.0,282.155,10.565,3.136,3.852,13.121,8.247,2.65,6.698,3.772
+2026,LSTM,Fixed_Margin,35.0,291.86,7.094,2.092,0.874,3.415,33.541,0.698,1.844,0.874
+2026,LSTM,Error_Based_Margin,30.014,291.233,7.473,2.23,1.053,4.043,29.183,0.821,2.17,1.051
+2026,LSTM,Conservative_Margin,61.817,293.493,5.598,1.394,0.443,1.782,58.725,0.378,0.953,0.451

@@ -1,0 +1,6 @@
+model,is_ml_candidate,cal_mae,test_mae,test_rmse,test_r2,train_sec
+Baseline_LastValue,False,28.348,31.61,44.822,0.6794,0.0
+Baseline_MovingAvg,False,24.978,26.23,36.963,0.782,0.0
+RandomForest,True,20.824,23.191,33.258,0.8235,0.514
+XGBoost,True,21.592,23.494,33.587,0.82,0.6482
+LSTM,True,19.666,22.041,31.872,0.8379,10.6864
